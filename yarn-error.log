@@ -1,0 +1,57 @@
+Arguments: 
+  /Users/guoxin/.nvm/versions/node/v16.5.0/bin/node /Users/guoxin/.nvm/versions/node/v16.5.0/bin/yarn add clc.auth@1.18.1
+
+PATH: 
+  /usr/local/sbin:/Users/guoxin/.nvm/versions/node/v16.5.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/opt/X11/bin:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.5.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: http://112.74.77.213:4873/clc.cli/-/clc.cli-0.13.17.tgz: Request failed "404 Not Found"
+      at ResponseError.ExtendableBuiltin (/Users/guoxin/.nvm/versions/node/v16.5.0/lib/node_modules/yarn/lib/cli.js:696:66)
+      at new ResponseError (/Users/guoxin/.nvm/versions/node/v16.5.0/lib/node_modules/yarn/lib/cli.js:802:124)
+      at Request.<anonymous> (/Users/guoxin/.nvm/versions/node/v16.5.0/lib/node_modules/yarn/lib/cli.js:67099:16)
+      at Request.emit (node:events:394:28)
+      at Request.module.exports.Request.onRequestResponse (/Users/guoxin/.nvm/versions/node/v16.5.0/lib/node_modules/yarn/lib/cli.js:141760:10)
+      at ClientRequest.emit (node:events:394:28)
+      at HTTPParser.parserOnIncomingClient (node:_http_client:621:27)
+      at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+      at Socket.socketOnData (node:_http_client:487:22)
+      at Socket.emit (node:events:394:28)
+
+npm manifest: 
+  {
+    "name": "sheen",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+      "clc.auth": "^1.17.2",
+      "clc.bus": "^1.24.2",
+      "clc.cli": "^0.13.7",
+      "clc.gateway": "^1.16.1",
+      "clc.model": "^1.41.4",
+      "clc.monitoring": "^3.65.1",
+      "clc.notification": "^1.22.5",
+      "clc.resource": "^1.21.8",
+      "clc.share": "^0.5.4",
+      "clc.visualization": "^1.19.7",
+      "clc.workflow": "^0.12.2"
+    },
+    "devDependencies": {
+      "webpack-cli": "^4.9.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

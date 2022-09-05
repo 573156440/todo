@@ -1,0 +1,30 @@
+{
+  "name": "express-todolist",
+  "version": "1.0.0",
+  "description": "A todoList using express and mongoDB.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/573156440/todo.git"
+  },
+  "keywords": [
+    "express",
+    "todolist",
+    "mongoDB"
+  ],
+  "author": "sheen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/573156440/todo.git"
+  },
+  "homepage": "https://github.com/573156440/todo.git",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.10"
+  }
+}
